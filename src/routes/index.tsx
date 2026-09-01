@@ -19,7 +19,7 @@ const title = `Ganeshkumar & Amirtha, Risikesan & Karthika — ${invite.dayLine.
 const description = `Ganeshkumar & Amirtha along with Risikesan & Karthika invite you to their engagement on ${invite.dayLine} at ${invite.venue.name}.`;
 
 const prodUrl = "https://ganeshkumar-amirtha.pages.dev";
-const ogImageUrl = `${prodUrl}/og-image.jpg`;
+const ogImageUrl = `${prodUrl}/og-image.png`;
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
       { property: "og:url", content: prodUrl },
       { property: "og:image", content: ogImageUrl },
       { property: "og:image:secure_url", content: ogImageUrl },
-      { property: "og:image:type", content: "image/jpeg" },
+      { property: "og:image:type", content: "image/png" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       { property: "og:image:alt", content: title },
