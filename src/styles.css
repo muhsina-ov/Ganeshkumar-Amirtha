@@ -146,27 +146,35 @@
 /* ── Template 01: "Paper & Script" wedding invitation ───────── */
 
 :root {
-  --paper: oklch(0.972 0.008 90);
-  --paper-deep: oklch(0.945 0.012 88);
-  --ink: oklch(0.22 0.012 60);
-  --olive: oklch(0.55 0.045 116);
-  --gold: oklch(0.72 0.09 82);
-  --sepia: oklch(0.62 0.045 62);
+  --paper: oklch(0.975 0.010 68);        /* warm ivory with a blush hint */
+  --paper-deep: oklch(0.952 0.016 66);
+  --ink: oklch(0.20 0.018 30);           /* deep warm brown, not pure black */
+  --olive: oklch(0.50 0.060 130);
+  --gold: oklch(0.72 0.11 72);           /* slightly warmer gold */
+  --sepia: oklch(0.58 0.055 55);
+
+  /* ── Indian wedding accent palette ── */
+  --marigold: oklch(0.76 0.17 60);       /* warm marigold orange */
+  --saffron: oklch(0.82 0.15 75);        /* saffron yellow-orange */
+  --rose: oklch(0.60 0.18 2);            /* deep rose / strawberry */
+  --maroon: oklch(0.38 0.14 15);         /* dark maroon / burgundy */
+  --blush: oklch(0.88 0.08 5);           /* soft blush pink */
+  --teal: oklch(0.52 0.11 195);          /* muted Indian teal */
 
   --background: var(--paper);
   --foreground: var(--ink);
   --card: var(--paper);
   --card-foreground: var(--ink);
-  --primary: var(--ink);
+  --primary: var(--maroon);
   --primary-foreground: var(--paper);
   --secondary: var(--paper-deep);
   --secondary-foreground: var(--ink);
   --muted: var(--paper-deep);
   --muted-foreground: var(--sepia);
-  --accent: var(--olive);
+  --accent: var(--marigold);
   --accent-foreground: var(--paper);
-  --border: oklch(0.86 0.015 80);
-  --input: oklch(0.86 0.015 80);
+  --border: oklch(0.84 0.018 70);
+  --input: oklch(0.84 0.018 70);
   --ring: var(--gold);
 }
 
@@ -177,6 +185,12 @@
   --color-olive: var(--olive);
   --color-gold: var(--gold);
   --color-sepia: var(--sepia);
+  --color-marigold: var(--marigold);
+  --color-saffron: var(--saffron);
+  --color-rose: var(--rose);
+  --color-maroon: var(--maroon);
+  --color-blush: var(--blush);
+  --color-teal: var(--teal);
 
   --font-script: "Parisienne", cursive;
   --font-serif: "Cormorant Garamond", Georgia, serif;
