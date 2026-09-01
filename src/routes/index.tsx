@@ -18,6 +18,9 @@ import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 const title = `Ganeshkumar & Amirtha, Risikesan & Karthika — ${invite.dayLine.split(",")[1]?.trim() ?? invite.dateLabel}`;
 const description = `Ganeshkumar & Amirtha along with Risikesan & Karthika invite you to their engagement on ${invite.dayLine} at ${invite.venue.name}.`;
 
+const prodUrl = "https://ganeshkumar-amirtha.pages.dev";
+const ogImageUrl = `${prodUrl}/og-image.jpg`;
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -26,10 +29,20 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: `${title} · Save the Date` },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: prodUrl },
+      { property: "og:image", content: ogImageUrl },
+      { property: "og:image:secure_url", content: ogImageUrl },
+      { property: "og:image:type", content: "image/jpeg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { property: "og:image:alt", content: title },
+      { property: "og:site_name", content: "Ganeshkumar & Amirtha Wedding Invitation" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: `${title} · Save the Date` },
+      { name: "twitter:description", content: description },
+      { name: "twitter:image", content: ogImageUrl },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: prodUrl }],
   }),
   component: Invitation,
 });
