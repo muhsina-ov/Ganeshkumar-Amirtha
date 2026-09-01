@@ -71,7 +71,7 @@ export function Introduction() {
             viewport={{ once: true, margin: "-60px" }} transition={{ duration: 0.7, delay: 0.3 }}>
             &
           </motion.span>
-          <ScriptNames text="Amirtha" delay={0.2} />
+          <ScriptNames text="Amirtha Varsini" delay={0.2} />
         </div>
 
         <motion.p className="caps mt-3 text-[0.55rem] tracking-[0.28em] text-sepia/70"
@@ -116,7 +116,7 @@ export function Introduction() {
             viewport={{ once: true, margin: "-60px" }} transition={{ duration: 0.7, delay: 0.3 }}>
             &
           </motion.span>
-          <ScriptNames text="Karthika" delay={0.25} />
+          <ScriptNames text="Karthika Devi" delay={0.25} />
         </div>
 
         <motion.p className="caps mt-3 text-[0.55rem] tracking-[0.28em] text-sepia/70"

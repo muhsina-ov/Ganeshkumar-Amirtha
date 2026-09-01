@@ -29,7 +29,7 @@ export function ActionBar() {
   const share = async () => {
     tap();
     const data = {
-      title: `Ganeshkumar & Amirtha, Risikesan & Karthika`,
+      title: `Ganeshkumar & Amirtha Varsini, Risikesan & Karthika Devi`,
       text: `You're invited — ${invite.dayLine}, ${invite.venue.name}`,
       url: typeof window !== "undefined" ? window.location.href : "",
     };

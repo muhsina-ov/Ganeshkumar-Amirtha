@@ -61,7 +61,7 @@ export function InviteFooter() {
           style={{ color: "oklch(0.38 0.14 15)" }}>
           <ScriptNames text="Ganeshkumar" />
           <span className="text-2xl font-sans" style={{ color: "oklch(0.76 0.17 60)" }}>&amp;</span>
-          <ScriptNames text="Amirtha" delay={0.15} />
+          <ScriptNames text="Amirtha Varsini" delay={0.15} />
         </div>
 
         {/* Divider */}
@@ -83,7 +83,7 @@ export function InviteFooter() {
           style={{ color: "oklch(0.38 0.14 15)" }}>
           <ScriptNames text="Risikesan" delay={0.3} />
           <span className="text-2xl font-sans" style={{ color: "oklch(0.60 0.18 2)" }}>&amp;</span>
-          <ScriptNames text="Karthika" delay={0.45} />
+          <ScriptNames text="Karthika Devi" delay={0.45} />
         </div>
 
         {/* Date */}

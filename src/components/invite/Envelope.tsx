@@ -83,15 +83,15 @@ export function Envelope({ onOpen }: { onOpen?: () => void }) {
             You&apos;re invited
           </p>
           <div className="caps mt-3 text-[0.5rem] tracking-widest text-olive/80">
-            <p>Ganeshkumar &amp; Amirtha</p>
-            <p className="mt-1">Risikesan &amp; Karthika</p>
+            <p>Ganeshkumar &amp; Amirtha Varsini</p>
+            <p className="mt-1">Risikesan &amp; Karthika Devi</p>
           </div>
           {/* reserved space for the wax seal that sits on the split line */}
           <div aria-hidden="true" className="h-64 shrink-0" />
           <Flourish className="w-24 rotate-180 text-gold/50" />
           <p className="caps mt-5 text-[0.6rem] text-ink/80">{invite.dateLabel}</p>
           <p className="caps mt-3 text-[0.48rem] text-sepia/75">{invite.venue.name}</p>
-          <p className="caps mt-2 text-[0.44rem] text-sepia/50">Ahmedabad</p>
+          <p className="caps mt-2 text-[0.44rem] text-sepia/50">Madurai</p>
         </div>
       </div>
 

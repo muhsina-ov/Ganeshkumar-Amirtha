@@ -3,7 +3,7 @@
 // ─────────────────────────────────────────────────────────────
 
 export const invite = {
-  bride: "Amirtha & Karthika",
+  bride: "Amirtha Varsini & Karthika Devi",
   groom: "Ganeshkumar & Risikesan",
   /** Shown big in the hero */
   dateLabel: "17.09.26",
@@ -14,7 +14,7 @@ export const invite = {
   timeZoneOffset: "+05:30",
   dayLine: "Thursday, 17th September 2026",
   timeLine: "6:00 PM to 7:00 PM",
-  eventTitle: "Engagement of Ganeshkumar & Amirtha, Risikesan & Karthika",
+  eventTitle: "Engagement of Ganeshkumar & Amirtha Varsini, Risikesan & Karthika Devi",
   invitationNote:
     "We warmly invite you to celebrate our engagement and bless us as we begin this wonderful journey together. Your presence and blessings will make this occasion truly unforgettable.",
   venue: {
