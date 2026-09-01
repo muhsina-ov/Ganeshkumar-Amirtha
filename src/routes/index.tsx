@@ -18,7 +18,7 @@ import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 const title = `Ganeshkumar & Amirtha, Risikesan & Karthika — ${invite.dayLine.split(",")[1]?.trim() ?? invite.dateLabel}`;
 const description = `Ganeshkumar & Amirtha along with Risikesan & Karthika invite you to their engagement on ${invite.dayLine} at ${invite.venue.name}.`;
 
-const prodUrl = "https://ganeshkumar-amirtha.pages.dev";
+const prodUrl = "https://ganeshkumar-amirtha.invitingyou.top";
 const ogImageUrl = `${prodUrl}/og-image.png`;
 
 export const Route = createFileRoute("/")({
