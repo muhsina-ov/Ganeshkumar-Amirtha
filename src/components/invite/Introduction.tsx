@@ -64,24 +64,46 @@ export function Introduction() {
           Couple One
         </motion.div>
 
-        <div className="script flex flex-col sm:flex-row items-center gap-y-1 gap-x-4 text-[3.2rem] sm:text-6xl text-maroon leading-[1.08]">
-          <ScriptNames text="Ganeshkumar" />
-          <motion.span className="text-3xl sm:text-4xl text-marigold font-serif italic"
-            initial={{ opacity: 0, scale: 0.7 }} whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-60px" }} transition={{ duration: 0.7, delay: 0.3 }}>
-            &
-          </motion.span>
-          <ScriptNames text="Amirtha Varsini" delay={0.2} />
+        {/* Groom */}
+        <div className="script flex items-center justify-center text-[3.4rem] sm:text-6xl text-maroon leading-[1.08]">
+          <ScriptNames text={invite.couples.couple1.groom.name} />
         </div>
+        {invite.couples.couple1.groom.alias && (
+          <motion.p className="text-sm font-serif italic text-sepia/80 -mt-1 mb-1"
+            initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.8, delay: 0.2 }}>
+            ({invite.couples.couple1.groom.alias})
+          </motion.p>
+        )}
+        <motion.p className="caps mt-1 text-[0.55rem] tracking-[0.25em] text-sepia/75 font-medium"
+          initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 1, delay: 0.4 }}>
+          {invite.couples.couple1.groom.parents}
+        </motion.p>
 
-        <motion.p className="caps mt-3 text-[0.55rem] tracking-[0.28em] text-sepia/70"
+        {/* and separator with flourishes */}
+        <motion.div
+          className="my-3 flex items-center justify-center gap-3 text-marigold"
+          initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, margin: "-60px" }} transition={{ duration: 0.7, delay: 0.5 }}
+        >
+          <span className="h-px w-8 bg-marigold/40" />
+          <span className="font-serif italic text-xl sm:text-2xl text-marigold">and</span>
+          <span className="h-px w-8 bg-marigold/40" />
+        </motion.div>
+
+        {/* Bride */}
+        <div className="script flex items-center justify-center text-[3.4rem] sm:text-6xl text-maroon leading-[1.08]">
+          <ScriptNames text={invite.couples.couple1.bride.name} delay={0.2} />
+        </div>
+        <motion.p className="caps mt-1 text-[0.55rem] tracking-[0.25em] text-sepia/75 font-medium"
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 1, delay: 0.6 }}>
-          Son of Thiru Sivakumar &amp; Neelavathi
+          {invite.couples.couple1.bride.parents}
         </motion.p>
       </div>
 
-      {/* ── Coloured divider ── */}
+      {/* ── Coloured divider between couples ── */}
       <div className="relative z-10 my-14 flex flex-col items-center gap-3">
         <div className="h-14 w-px" style={{ background: "linear-gradient(to bottom, oklch(0.76 0.17 60 / 0.5), oklch(0.60 0.18 2 / 0.5))" }} />
         <motion.div
@@ -94,7 +116,7 @@ export function Introduction() {
           style={{ color: "oklch(0.76 0.17 60)", background: "oklch(0.965 0.018 62)" }}
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 1, delay: 0.2 }}>
-          and
+          along with
         </motion.p>
         <div className="h-14 w-px" style={{ background: "linear-gradient(to bottom, oklch(0.60 0.18 2 / 0.5), oklch(0.52 0.11 195 / 0.4))" }} />
       </div>
@@ -109,20 +131,35 @@ export function Introduction() {
           Couple Two
         </motion.div>
 
-        <div className="script flex flex-col sm:flex-row items-center gap-y-1 gap-x-4 text-[3.2rem] sm:text-6xl text-maroon leading-[1.08]">
-          <ScriptNames text="Risikesan" delay={0.1} />
-          <motion.span className="text-3xl sm:text-4xl text-rose font-serif italic"
-            initial={{ opacity: 0, scale: 0.7 }} whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-60px" }} transition={{ duration: 0.7, delay: 0.3 }}>
-            &
-          </motion.span>
-          <ScriptNames text="Karthika Devi" delay={0.25} />
+        {/* Groom */}
+        <div className="script flex items-center justify-center text-[3.4rem] sm:text-6xl text-maroon leading-[1.08]">
+          <ScriptNames text={invite.couples.couple2.groom.name} delay={0.1} />
         </div>
+        <motion.p className="caps mt-1 text-[0.55rem] tracking-[0.25em] text-sepia/75 font-medium"
+          initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 1, delay: 0.4 }}>
+          {invite.couples.couple2.groom.parents}
+        </motion.p>
 
-        <motion.p className="caps mt-3 text-[0.55rem] tracking-[0.28em] text-sepia/70"
+        {/* and separator with flourishes */}
+        <motion.div
+          className="my-3 flex items-center justify-center gap-3 text-rose"
+          initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, margin: "-60px" }} transition={{ duration: 0.7, delay: 0.5 }}
+        >
+          <span className="h-px w-8 bg-rose/40" />
+          <span className="font-serif italic text-xl sm:text-2xl text-rose">and</span>
+          <span className="h-px w-8 bg-rose/40" />
+        </motion.div>
+
+        {/* Bride */}
+        <div className="script flex items-center justify-center text-[3.4rem] sm:text-6xl text-maroon leading-[1.08]">
+          <ScriptNames text={invite.couples.couple2.bride.name} delay={0.25} />
+        </div>
+        <motion.p className="caps mt-1 text-[0.55rem] tracking-[0.25em] text-sepia/75 font-medium"
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 1, delay: 0.6 }}>
-          Son of Thiru Rameshbabu &amp; Shanthe
+          {invite.couples.couple2.bride.parents}
         </motion.p>
       </div>
 
