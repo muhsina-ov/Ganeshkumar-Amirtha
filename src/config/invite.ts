@@ -9,7 +9,7 @@ export const invite = {
     couple1: {
       groom: {
         name: "Ganeshkumar",
-        alias: "Abinesh",
+        alias: "",
         parents: "Son of Thiru Sivakumar & Neelavathi",
       },
       bride: {
