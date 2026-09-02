@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { invite } from "@/config/invite";
 import { ScriptNames } from "./Reveal";
 
 function DrawRule({ delay = 0 }: { delay?: number }) {
