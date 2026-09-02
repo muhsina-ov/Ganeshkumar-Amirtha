@@ -81,7 +81,7 @@ export function InviteFooter() {
         {/* Couple 2 */}
         <div className="script flex flex-col sm:flex-row items-center gap-x-3 text-[3rem] sm:text-5xl leading-[1.1]"
           style={{ color: "oklch(0.38 0.14 15)" }}>
-          <ScriptNames text="Risikesan" delay={0.3} />
+          <ScriptNames text="Rishikesan" delay={0.3} />
           <span className="text-2xl font-sans" style={{ color: "oklch(0.60 0.18 2)" }}>&amp;</span>
           <ScriptNames text="Karthika Devi" delay={0.45} />
         </div>

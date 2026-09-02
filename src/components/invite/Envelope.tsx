@@ -84,7 +84,7 @@ export function Envelope({ onOpen }: { onOpen?: () => void }) {
           </p>
           <div className="caps mt-3 text-[0.5rem] tracking-widest text-olive/80">
             <p>Ganeshkumar &amp; Amirtha Varsini</p>
-            <p className="mt-1">Risikesan &amp; Karthika Devi</p>
+            <p className="mt-1">Rishikesan &amp; Karthika Devi</p>
           </div>
           {/* reserved space for the wax seal that sits on the split line */}
           <div aria-hidden="true" className="h-64 shrink-0" />

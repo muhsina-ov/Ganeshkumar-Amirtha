@@ -15,10 +15,10 @@ import { Venue } from "@/components/invite/Venue";
 import { invite } from "@/config/invite";
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 
-const title = `Ganeshkumar & Amirtha Varsini, Risikesan & Karthika Devi — ${invite.dayLine.split(",")[1]?.trim() ?? invite.dateLabel}`;
-const description = `Ganeshkumar & Amirtha Varsini along with Risikesan & Karthika Devi invite you to their engagement on ${invite.dayLine} at ${invite.venue.name}.`;
+const title = `Ganeshkumar & Amirtha Varsini, Rishikesan & Karthika Devi — ${invite.dayLine.split(",")[1]?.trim() ?? invite.dateLabel}`;
+const description = `Ganeshkumar & Amirtha Varsini along with Rishikesan & Karthika Devi invite you to their engagement on ${invite.dayLine} at ${invite.venue.name}.`;
 
-const prodUrl = "https://ganeshkumar-amirtha.invitingyou.top";
+const prodUrl = "https://ganeshkumar-amirtha-rishikesan-karthika.invitestory.in";
 const ogImageUrl = `${prodUrl}/og-image.png`;
 
 export const Route = createFileRoute("/")({
@@ -36,7 +36,7 @@ export const Route = createFileRoute("/")({
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       { property: "og:image:alt", content: title },
-      { property: "og:site_name", content: "Ganeshkumar & Amirtha Varsini Wedding Invitation" },
+      { property: "og:site_name", content: "Ganeshkumar & Amirtha Varsini, Rishikesan & Karthika Devi Wedding Invitation" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: `${title} · Save the Date` },
       { name: "twitter:description", content: description },

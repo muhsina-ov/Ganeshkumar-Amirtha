@@ -4,7 +4,7 @@
 
 export const invite = {
   bride: "Amirtha Varsini & Karthika Devi",
-  groom: "Ganeshkumar & Risikesan",
+  groom: "Ganeshkumar & Rishikesan",
   couples: {
     couple1: {
       groom: {
@@ -20,7 +20,7 @@ export const invite = {
     },
     couple2: {
       groom: {
-        name: "Risikesan",
+        name: "Rishikesan",
         alias: "",
         parents: "Son of Thiru Rameshbabu & Shanthe",
       },
@@ -40,7 +40,7 @@ export const invite = {
   timeZoneOffset: "+05:30",
   dayLine: "Thursday, 17th September 2026",
   timeLine: "6:00 PM to 7:00 PM",
-  eventTitle: "Engagement of Ganeshkumar & Amirtha Varsini, Risikesan & Karthika Devi",
+  eventTitle: "Engagement of Ganeshkumar & Amirtha Varsini, Rishikesan & Karthika Devi",
   invitationNote:
     "Together with our families, we request the honour of your presence at the Engagement Ceremony. We warmly invite you to celebrate our engagement and bless us as we begin this wonderful journey together. Your presence and blessings will make this occasion truly unforgettable.",
   venue: {
